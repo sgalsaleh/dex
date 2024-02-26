@@ -13,9 +13,9 @@ import (
 
 	"github.com/dexidp/dex/api/v2"
 	"github.com/dexidp/dex/pkg/log"
-	"github.com/dexidp/dex/server/internal"
 	"github.com/dexidp/dex/storage"
 	"github.com/dexidp/dex/storage/memory"
+	"github.com/sgalsaleh/dex/v2/server/internal"
 )
 
 // apiClient is a test gRPC client. When constructed, it runs a server in

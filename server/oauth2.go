@@ -24,8 +24,8 @@ import (
 	jose "gopkg.in/square/go-jose.v2"
 
 	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/server/internal"
 	"github.com/dexidp/dex/storage"
+	"github.com/sgalsaleh/dex/v2/server/internal"
 )
 
 // TODO(ericchiang): clean this file up and figure out more idiomatic error handling.
@@ -93,7 +93,7 @@ func tokenErr(w http.ResponseWriter, typ, description string, statusCode int) er
 	return nil
 }
 
-//nolint
+// nolint
 const (
 	errInvalidRequest          = "invalid_request"
 	errUnauthorizedClient      = "unauthorized_client"
