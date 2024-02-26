@@ -34,7 +34,7 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/reflection"
 
-	"github.com/dexidp/dex/api/v2"
+	"github.com/sgalsaleh/dex/v2/api/v2"
 	"github.com/sgalsaleh/dex/v2/pkg/log"
 	"github.com/sgalsaleh/dex/v2/server"
 	"github.com/sgalsaleh/dex/v2/storage"

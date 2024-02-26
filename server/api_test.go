@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/dexidp/dex/api/v2"
+	"github.com/sgalsaleh/dex/v2/api/v2"
 	"github.com/sgalsaleh/dex/v2/pkg/log"
 	"github.com/sgalsaleh/dex/v2/server/internal"
 	"github.com/sgalsaleh/dex/v2/storage"
