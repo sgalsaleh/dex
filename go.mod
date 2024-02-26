@@ -9,7 +9,6 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.3
 	github.com/beevik/etree v1.3.0
 	github.com/coreos/go-oidc/v3 v3.9.0
-	github.com/dexidp/dex v0.0.0-20240125142631-9451d87ca0c9
 	github.com/dexidp/dex/api/v2 v2.1.1-0.20240125142631-9451d87ca0c9
 	github.com/felixge/httpsnoop v1.0.4
 	github.com/fsnotify/fsnotify v1.7.0
@@ -106,7 +105,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace (
-	github.com/dexidp/dex => ./
-	github.com/dexidp/dex/api/v2 => ./api/v2
-)
+replace github.com/dexidp/dex/api/v2 => ./api/v2

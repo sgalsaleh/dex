@@ -12,9 +12,9 @@ import (
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/dialect/sql/sqljson"
 	"entgo.io/ent/schema/field"
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/ent/db/keys"
-	"github.com/dexidp/dex/storage/ent/db/predicate"
+	"github.com/sgalsaleh/dex/v2/storage"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/keys"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/predicate"
 	jose "gopkg.in/square/go-jose.v2"
 )
 

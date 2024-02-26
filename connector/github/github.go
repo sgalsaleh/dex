@@ -15,10 +15,10 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/github"
 
-	"github.com/dexidp/dex/connector"
-	groups_pkg "github.com/dexidp/dex/pkg/groups"
-	"github.com/dexidp/dex/pkg/httpclient"
-	"github.com/dexidp/dex/pkg/log"
+	"github.com/sgalsaleh/dex/v2/connector"
+	groups_pkg "github.com/sgalsaleh/dex/v2/pkg/groups"
+	"github.com/sgalsaleh/dex/v2/pkg/httpclient"
+	"github.com/sgalsaleh/dex/v2/pkg/log"
 )
 
 const (
