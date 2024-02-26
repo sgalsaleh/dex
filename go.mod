@@ -1,4 +1,4 @@
-module github.com/dexidp/dex
+module github.com/sgalsaleh/dex/v2
 
 go 1.21
 

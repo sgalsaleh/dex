@@ -13,7 +13,7 @@ import (
 	"golang.org/x/crypto/bcrypt"
 	jose "gopkg.in/square/go-jose.v2"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/sgalsaleh/dex/v2/storage"
 )
 
 // ensure that values being tested on never expire.

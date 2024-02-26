@@ -13,8 +13,8 @@ import (
 
 	"github.com/go-ldap/ldap/v3"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/pkg/log"
+	"github.com/sgalsaleh/dex/v2/connector"
+	"github.com/sgalsaleh/dex/v2/pkg/log"
 )
 
 // Config holds the configuration parameters for the LDAP connector. The LDAP

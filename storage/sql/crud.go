@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/sgalsaleh/dex/v2/storage"
 )
 
 // TODO(ericchiang): The update, insert, and select methods queries are all

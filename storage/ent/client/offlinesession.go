@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/dexidp/dex/storage"
+	"github.com/sgalsaleh/dex/v2/storage"
 )
 
 // CreateOfflineSessions saves provided offline session into the database.

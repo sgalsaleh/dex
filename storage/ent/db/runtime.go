@@ -5,17 +5,17 @@ package db
 import (
 	"time"
 
-	"github.com/dexidp/dex/storage/ent/db/authcode"
-	"github.com/dexidp/dex/storage/ent/db/authrequest"
-	"github.com/dexidp/dex/storage/ent/db/connector"
-	"github.com/dexidp/dex/storage/ent/db/devicerequest"
-	"github.com/dexidp/dex/storage/ent/db/devicetoken"
-	"github.com/dexidp/dex/storage/ent/db/keys"
-	"github.com/dexidp/dex/storage/ent/db/oauth2client"
-	"github.com/dexidp/dex/storage/ent/db/offlinesession"
-	"github.com/dexidp/dex/storage/ent/db/password"
-	"github.com/dexidp/dex/storage/ent/db/refreshtoken"
-	"github.com/dexidp/dex/storage/ent/schema"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/authcode"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/authrequest"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/connector"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/devicerequest"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/devicetoken"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/keys"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/oauth2client"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/offlinesession"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/password"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db/refreshtoken"
+	"github.com/sgalsaleh/dex/v2/storage/ent/schema"
 )
 
 // The init function reads all schema descriptors with runtime code
