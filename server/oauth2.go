@@ -23,9 +23,9 @@ import (
 
 	jose "gopkg.in/square/go-jose.v2"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/server/internal"
-	"github.com/dexidp/dex/storage"
+	"github.com/sgalsaleh/dex/v2/connector"
+	"github.com/sgalsaleh/dex/v2/server/internal"
+	"github.com/sgalsaleh/dex/v2/storage"
 )
 
 // TODO(ericchiang): clean this file up and figure out more idiomatic error handling.
@@ -171,7 +171,7 @@ func signatureAlgorithm(jwk *jose.JSONWebKey) (alg jose.SignatureAlgorithm, err 
 		// value. In the future, we might want to make this configurable on a
 		// per client basis. For example allowing PS256 or ECDSA variants.
 		//
-		// See https://github.com/dexidp/dex/issues/692
+		// See https://github.com/sgalsaleh/dex/v2/issues/692
 		return jose.RS256, nil
 	case *ecdsa.PrivateKey:
 		// We don't actually support ECDSA keys yet, but they're tested for

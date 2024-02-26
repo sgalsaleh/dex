@@ -14,8 +14,8 @@ import (
 
 	"golang.org/x/oauth2"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/pkg/log"
+	"github.com/sgalsaleh/dex/v2/connector"
+	"github.com/sgalsaleh/dex/v2/pkg/log"
 )
 
 // Config holds configuration options for gitea logins.

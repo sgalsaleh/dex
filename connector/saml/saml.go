@@ -19,12 +19,12 @@ import (
 	dsig "github.com/russellhaering/goxmldsig"
 	"github.com/russellhaering/goxmldsig/etreeutils"
 
-	"github.com/dexidp/dex/connector"
-	"github.com/dexidp/dex/pkg/groups"
-	"github.com/dexidp/dex/pkg/log"
+	"github.com/sgalsaleh/dex/v2/connector"
+	"github.com/sgalsaleh/dex/v2/pkg/groups"
+	"github.com/sgalsaleh/dex/v2/pkg/log"
 )
 
-//nolint
+// nolint
 const (
 	bindingRedirect = "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
 	bindingPOST     = "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"

@@ -17,9 +17,9 @@ import (
 	admin "google.golang.org/api/admin/directory/v1"
 	"google.golang.org/api/option"
 
-	"github.com/dexidp/dex/connector"
-	pkg_groups "github.com/dexidp/dex/pkg/groups"
-	"github.com/dexidp/dex/pkg/log"
+	"github.com/sgalsaleh/dex/v2/connector"
+	pkg_groups "github.com/sgalsaleh/dex/v2/pkg/groups"
+	"github.com/sgalsaleh/dex/v2/pkg/log"
 )
 
 const (
@@ -94,7 +94,7 @@ func (c *Config) Open(id string, logger log.Logger) (conn connector.Connector, e
 		return nil, fmt.Errorf("directory service requires the domainToAdminEmail option to be configured")
 	}
 
-	// Fixing a regression caused by default config fallback: https://github.com/dexidp/dex/issues/2699
+	// Fixing a regression caused by default config fallback: https://github.com/sgalsaleh/dex/v2/issues/2699
 	if (c.ServiceAccountFilePath != "" && len(c.DomainToAdminEmail) > 0) || slices.Contains(scopes, "groups") {
 		for domain, adminEmail := range c.DomainToAdminEmail {
 			srv, err := createDirectoryService(c.ServiceAccountFilePath, adminEmail, logger)

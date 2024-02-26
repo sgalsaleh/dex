@@ -8,9 +8,9 @@ import (
 	"golang.org/x/crypto/bcrypt"
 
 	"github.com/dexidp/dex/api/v2"
-	"github.com/dexidp/dex/pkg/log"
-	"github.com/dexidp/dex/server/internal"
-	"github.com/dexidp/dex/storage"
+	"github.com/sgalsaleh/dex/v2/pkg/log"
+	"github.com/sgalsaleh/dex/v2/server/internal"
+	"github.com/sgalsaleh/dex/v2/storage"
 )
 
 // apiVersion increases every time a new call is added to the API. Clients should use this info
