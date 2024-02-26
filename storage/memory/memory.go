@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dexidp/dex/pkg/log"
-	"github.com/dexidp/dex/storage"
+	"github.com/sgalsaleh/dex/v2/pkg/log"
+	"github.com/sgalsaleh/dex/v2/storage"
 )
 
 var _ storage.Storage = (*memStorage)(nil)

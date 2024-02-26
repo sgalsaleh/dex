@@ -14,13 +14,13 @@ import (
 	entSQL "entgo.io/ent/dialect/sql"
 	_ "github.com/lib/pq" // Register postgres driver.
 
-	"github.com/dexidp/dex/pkg/log"
-	"github.com/dexidp/dex/storage"
-	"github.com/dexidp/dex/storage/ent/client"
-	"github.com/dexidp/dex/storage/ent/db"
+	"github.com/sgalsaleh/dex/v2/pkg/log"
+	"github.com/sgalsaleh/dex/v2/storage"
+	"github.com/sgalsaleh/dex/v2/storage/ent/client"
+	"github.com/sgalsaleh/dex/v2/storage/ent/db"
 )
 
-//nolint
+// nolint
 const (
 	// postgres SSL modes
 	pgSSLDisable    = "disable"

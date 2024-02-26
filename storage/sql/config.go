@@ -15,8 +15,8 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/lib/pq"
 
-	"github.com/dexidp/dex/pkg/log"
-	"github.com/dexidp/dex/storage"
+	"github.com/sgalsaleh/dex/v2/pkg/log"
+	"github.com/sgalsaleh/dex/v2/storage"
 )
 
 const (
@@ -31,7 +31,7 @@ const (
 	mysqlErrUnknownSysVar       = 1193
 )
 
-//nolint
+// nolint
 const (
 	// postgres SSL modes
 	pgSSLDisable    = "disable"
@@ -40,7 +40,7 @@ const (
 	pgSSLVerifyFull = "verify-full"
 )
 
-//nolint
+// nolint
 const (
 	// MySQL SSL modes
 	mysqlSSLTrue       = "true"
@@ -274,7 +274,7 @@ func (s *MySQL) open(logger log.Logger) (*conn, error) {
 	}
 
 	if s.MaxIdleConns == 0 {
-		/*Override default behaviour to fix https://github.com/dexidp/dex/issues/1608*/
+		/*Override default behaviour to fix https://github.com/sgalsaleh/dex/v2/issues/1608*/
 		db.SetMaxIdleConns(0)
 	} else {
 		db.SetMaxIdleConns(s.MaxIdleConns)
