@@ -103,4 +103,5 @@ require (
 replace (
 	github.com/dexidp/dex => ./
 	github.com/dexidp/dex/api/v2 => ./api/v2
+	github.com/dexidp/dex/server/internal => ./server/internal
 )
